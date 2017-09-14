@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="title">
+        <item>Building Relationship</item>
+        <item>Family Time</item>
+        <item>Positive Mental Health</item>
+        <item>Sleep</item>
+    </string-array>
+    <string-array name="description">
+        <item>The Context for Everything Else</item>
+        <item>How to Promote Family Time When Children\'s Ages Vary</item>
+        <item>Promoting Positive Mental Health in Children and Adolescents</item>
+        <item>The importance of Sleep and What to Do When Your Child Has Trouble Sleeping</item>
+    </string-array>
+</resources>

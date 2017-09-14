@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ParentAssistApp</string>
+    <string name="about_author">Carla Betker,M.Ed has worked as a school psychologist in Manitoba schools for over 20 years.She has also worked
+    as a therapist in a clinical treatment seeting for adolescents, and has a private practice where she provides counselling services to children,
+        adolescents and adults; as well as parent coaching to parents with children of all ages.</string>
+    <string name="text_msg">I\'ll do my beat to get back to you in a timely manner.</string>
+    <string name="text_question">Do you have a question or concern?</string>
+
+    <string name="realtionship_txt2"></string>
+</resources>

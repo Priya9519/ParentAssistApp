@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/strength_bg"
+    android:orientation="vertical"
+    tools:context="com.example.priya.parentassistapp.frontend.StrengthActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Building a Base for Strength and Resilience"
+        android:background="@color/colorDarkRed"
+        android:textAlignment="center"
+        android:padding="7dp"
+        android:textSize="12dp"
+        android:layout_marginTop="78dp"
+        android:textColor="@color/colorWhite" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_view"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="70dp"
+        >
+    </ListView>
+</LinearLayout>

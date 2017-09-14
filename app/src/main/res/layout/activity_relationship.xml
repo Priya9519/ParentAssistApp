@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/strength_resilience_bg"
+    tools:context="com.example.priya.parentassistapp.frontend.RelationshipActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:id="@+id/layout"
+        android:background="@drawable/strength_resilience_header"
+        android:padding="20dp"
+        >
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+        android:text="Building Relationship"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:text="The Context for Everything Else"/>
+    </LinearLayout>
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="40dp"
+        android:layout_below="@+id/layout"
+        android:layout_above="@+id/text"
+        />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:background="@drawable/footer_shape"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:layout_alignParentBottom="true"
+        android:text="Copyright @ 2017 Elm Park Counselling and Consultation"/>
+
+
+</RelativeLayout>
